@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    position: relative;
+    width: 1440px;
+    height: 1046px;
+}
+.thead{
+    position:absolute;
+    top: 91px;
+    left: 124px;
+    width: 365px;
+height: 93px;
+color: #000;
+font-family: Roboto Slab;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+line-height: 101.385%
+
+}
+.body{
+    position: absolute;
+    top: 202px;
+    left: 124px;
+    width: 662px;
+height: 374px;
+color: #000;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%
+
+}
+.big{
+    position: absolute;
+    top: 226px;
+    right: 150px;
+    width: 366px;
+height: 344px;
+    background: #FFF;
+}
+.head{
+    display: flex;
+}
+.litle{
+    position: absolute;
+    top: 670px;
+    left: 120px;
+    
+    width: 232px;
+height: 203px;
+}
+.metn{
+    position: absolute;
+    top: 780px;
+    width: 150px;
+height: 39px;
+    color: #000;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+}
+.basliq{
+    position: absolute;
+    top: 740px;
+    width: 150px;
+height: 39px;
+color: #000;
+font-family: Roboto;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+}
+.foot{
+    display: flex;
+}
+.info1{
+    left: 488px;
+}
+.info2{
+    left: 733px;
+}
+.info3{
+    left: 976px;
+}
+@media screen and (min-width: 834px) and (max-width: 1040px){
+    
+    .main{
+        width: 834px;
+height: 633px;
+    }
+    .thead{
+        position: absolute;
+        width: 211.396px;
+height: 53.863px;
+font-size: 32px;
+top: 56px;
+left: 72px;
+    }
+    .body{
+        position: absolute;
+        width: 383.408px;
+height: 216.608px;
+font-size: 14px;
+top: 120.29px;
+left: 72px;
+    }
+    .big{
+        position: absolute;
+        width: 213px;
+        height: 200px;
+        top: 134.19px;
+        right: 86.69px;
+
+}
+.basliq{
+    position: absolute;
+    top: 407px;
+    width: 86.875px;
+height: 22.587px;
+font-size: 15px;
+}
+.info1{
+    left: 72px;
+}
+.info2{
+    left: 213.9px;
+}
+.info3{
+    left: 354.63px;
+}
+.metn{
+    top: 430.17px;
+    font-size: 11px;
+}
+.media1{
+    width: 86.875px;
+height: 22.587px;
+}
+.media2{
+    width: 108px;
+height: 23px;
+}
+.media3{
+    width: 86.875px;
+height: 22.587px;
+}
+.litle{
+    display: none;
+}
+}
+@media screen  and (min-width: 375px) and (max-width: 833px){
+    .main{
+        width: 375px;
+height: 776px;
+    }
+    .thead{
+        position: absolute;
+        width: 211.396px;
+height: 53.863px;
+font-size: 26px;
+top: 56px;
+left: 36px;
+    }
+    .body{
+        position: absolute;
+        width: 308.474px;
+height: 174.274px;
+font-size: 12px;
+top: 107.72px;
+left: 36px;
+    }
+    .big{
+        position: absolute;
+        width: 170.55px;
+        height: 160.29px;
+        top: 338px;
+        right: 115.57px;
+
+}
+.media1{
+    position: absolute;
+    top: 563px;
+    left: 35px;
+    width: 86px;
+height: 18px;
+}
+.media2{
+    top: 562.46px;
+    left: 154.33px;
+    width: 86.892px;
+height: 18.505px;
+}
+.media3{
+    top: 634px;
+    left: 35px;
+    flex-wrap: wrap;
+    width: 76px;
+    height: 18px;
+}
+.litle{
+    display: none;
+}
+.same{
+    position: absolute;
+    top: 544px;
+
+}
+.same2{
+    position: absolute;
+    top: 615px;
+}
+.info1{
+   
+    left: 35px;
+}
+.info2{
+    
+    left: 154.33px;
+}
+.info3{
+   
+    left: 35px;
+}
+.basliq{
+    font-size: 12px;
+}
+.metn{
+    font-size: 10px;
+}
+}
