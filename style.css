@@ -91,7 +91,7 @@ line-height: 130%;
 .info3{
     left: 976px;
 }
-@media screen and (min-width: 834px) and (max-width: 1440px){
+@media screen and (min-width: 834px) and (max-width: 1400px){
     
     .main{
         width: 834px;
@@ -157,7 +157,7 @@ height: 22.587px;
     display: none;
 }
 }
-@media screen  and (min-width: 375px) and (max-width: 833px){
+@media screen  and (min-width: 375px) and (max-width: 800px){
     .main{
         width: 375px;
 height: 776px;
