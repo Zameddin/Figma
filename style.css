@@ -2,221 +2,237 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.main{
-    position: relative;
-    width: 1440px;
-    height: 1046px;
-}
-.thead{
-    position:absolute;
-    top: 91px;
-    left: 124px;
-    width: 365px;
-height: 93px;
-color: #000;
-font-family: Roboto Slab;
-font-size: 55px;
-font-style: normal;
-font-weight: 700;
-line-height: 101.385%
 
-}
-.body{
-    position: absolute;
-    top: 202px;
-    left: 124px;
-    width: 662px;
-height: 374px;
-color: #000;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%
-
-}
-.big{
-    position: absolute;
-    top: 226px;
-    right: 150px;
-    width: 366px;
-height: 344px;
-    background: #FFF;
-}
+    .main{
+        width: 100%;
+        
+    }
+    .container{
+        width: 83%;
+        margin: 0 auto;
+    }
+    .info1{
+        left: 488px;
+    }
+    .info2{
+        left: 733px;
+    }
+    .info3{
+        left: 976px;
+    }
 .head{
-    display: flex;
-}
-.litle{
-    position: absolute;
-    top: 670px;
-    left: 120px;
-    
-    width: 232px;
-height: 203px;
-}
-.metn{
-    position: absolute;
-    top: 780px;
-    width: 150px;
-height: 39px;
-    color: #000;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 130%;
-}
-.basliq{
-    position: absolute;
-    top: 740px;
-    width: 150px;
-height: 39px;
-color: #000;
-font-family: Roboto;
-font-size: 25px;
-font-style: normal;
-font-weight: 700;
-line-height: 130%;
+    margin-top: 5%;
+display: flex;
 }
 .foot{
+    margin-bottom: 10%;
+margin-top: 10%;
     display: flex;
+    align-items: center;
 }
-.info1{
-    left: 488px;
+   .litle{
+    margin-right: 115px;
+    width: 232px;
+    height: 203px;
 }
-.info2{
-    left: 733px;
-}
-.info3{
-    left: 976px;
-}
-@media screen and (min-width: 768px) and (max-width: 991px){
-    
-    .main{
-        width: 834px;
-height: 633px;
+   
+    .head1{
+        margin-left: 0;
+        margin-right: -20px;
     }
     .thead{
-        position: absolute;
-        width: 211.396px;
-height: 53.863px;
-font-size: 32px;
-top: 56px;
-left: 72px;
+        margin-bottom: 7%;
+        margin-top: 4%;
+        color: #000;
+font-family: Roboto Slab;
+font-size: 3.8vw;
+font-style: normal;
+font-weight: 700;
+
+line-height: 101.385%
     }
-    .body{
-        position: absolute;
-        width: 383.408px;
-height: 216.608px;
-font-size: 14px;
-top: 120.29px;
-left: 72px;
-    }
-    .big{
-        position: absolute;
-        width: 213px;
-        height: 200px;
-        top: 134.19px;
-        right: 86.69px;
+.big{
+    background: #FFF;
+    margin-left: 10%;
+    margin-top: 9%;
+    width: 34%;
+    height: 50vh;
+}
+.metn{
+    color: #000;
+font-family: Roboto;
+font-size: 1.3vw;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+width: 55%;
 
 }
 .basliq{
-    position: absolute;
-    top: 407px;
-    width: 86.875px;
-height: 22.587px;
-font-size: 15px;
+    height: auto;
+    color: #000;
+font-family: Roboto;
+font-size: 1.7vw;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
 }
-.info1{
-    left: 72px;
+    .body{
+        width: 92%;
+        color: #000;
+font-family: Roboto;
+font-size: 1.6vw;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+height: 280px;
+    }
+
+@media screen and (min-width: 991px) and (max-width: 1279px){
+    
+    .info1{
+        left: 488px;
+    }
+    .info2{
+        left: 733px;
+    }
+    .info3{
+        left: 976px;
+    }
+.head{
+    margin-top: 5%;
+display: flex;
 }
-.info2{
-    left: 213.9px;
+.foot{
+    margin-bottom: 10%;
+margin-top: 50px;
+    display: flex;
+    align-items: center;
 }
-.info3{
-    left: 354.63px;
+   .litle{
+   display: none;
 }
-.metn{
-    top: 430.17px;
-    font-size: 11px;
-}
-.media1{
-    width: 86.875px;
-height: 22.587px;
-}
-.media2{
-    width: 108px;
-height: 23px;
-}
-.media3{
-    width: 86.875px;
-height: 22.587px;
-}
-.litle{
-    display: none;
-}
-}
-@media screen and (max-width: 767px){
-    .main{
-        width: 375px;
-height: 776px;
+   
+    .head1{
+        margin-left: 0;
+        margin-right: -20px;
     }
     .thead{
-        position: absolute;
+        margin-bottom: 7%;
+        margin-top: 4%;
+        color: #000;
+font-family: Roboto Slab;
+font-size: 2.8vw;
+font-style: normal;
+font-weight: 700;
+
+line-height: 101.385%
+    }
+.big{
+    background: #FFF;
+    margin-left: 10%;
+    margin-top: 9%;
+    width: 38%;
+    height: 42vh;
+}
+.metn{
+    color: #000;
+font-family: Roboto;
+font-size: 1.1vw;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+width: 55%;
+
+}
+.basliq{
+    margin-bottom: 5px;
+    height: auto;
+    color: #000;
+font-family: Roboto;
+font-size: 1.7vw;
+font-style: normal;
+font-weight: 700;
+line-height: 130%;
+}
+    .body{
+        margin-bottom: 4%;
+        width: 87%;
+        color: #000;
+font-family: Roboto;
+font-size: 1.5vw;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+height: 280px;
+    }
+}
+
+
+
+@media screen and (min-width: 375px) and (max-width: 991px){
+  
+    .head{
+        flex-direction: column;
+       
+    }
+    .thead{
+      margin-bottom: 0;
         width: 211.396px;
 height: 53.863px;
 font-size: 26px;
-top: 56px;
-left: 36px;
+
     }
     .body{
-        position: absolute;
+       
         width: 308.474px;
 height: 174.274px;
 font-size: 12px;
-top: 107.72px;
-left: 36px;
+
     }
     .big{
-        position: absolute;
+       margin-top: 60px;
         width: 170.55px;
         height: 160.29px;
-        top: 338px;
-        right: 115.57px;
+        
 
 }
+.foot{
+    width: 350px;
+ 
+    margin-bottom: 10%;
+    margin-top: 6%;
+    display: flex;
+
+    flex-wrap: wrap;
+  
+}
+
+.head1{
+    margin-bottom: 35px;
+    margin-left: 0;
+    margin-right: 40px;
+}
 .media1{
-    position: absolute;
-    top: 563px;
-    left: 35px;
+    
     width: 86px;
 height: 18px;
 }
 .media2{
-    top: 562.46px;
-    left: 154.33px;
+  
     width: 86.892px;
 height: 18.505px;
 }
 .media3{
-    top: 634px;
-    left: 35px;
+    
     flex-wrap: wrap;
     width: 76px;
     height: 18px;
 }
 .litle{
     display: none;
-}
-.same{
-    position: absolute;
-    top: 544px;
-
-}
-.same2{
-    position: absolute;
-    top: 615px;
 }
 .info1{
    
